@@ -19,7 +19,7 @@ function typeWriter2() {
       j++;
       setTimeout(typeWriter2, speed);
     }
-  }
+}
 
 typeWriter();
 

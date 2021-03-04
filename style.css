@@ -17,6 +17,14 @@ body{
     border: 3px solid green;
 }
 
+.asciitext{
+    opacity: 0;
+    white-space: pre-wrap;
+    margin-left: 30vw;
+    animation: ani1 1s forwards;
+    animation-delay: 1.5s;
+}
+
 .bio{
     height: 10vh;
     display: flex;
@@ -60,21 +68,21 @@ div{
     animation: ani1 1s forwards;
     -webkit-animation: ani1 1s forwards;
     opacity:0;
-    animation-delay: 1.5s;
+    animation-delay: 2s;
 }
 
 .row2 {   
     animation: ani1 1s forwards;
     -webkit-animation: ani1 1s forwards;
     opacity:0;
-    animation-delay: 2s;
+    animation-delay: 2.5s;
 }
 
 .row3 {   
     animation: ani1 1s forwards;
     -webkit-animation: ani1 1s forwards;
     opacity:0;
-    animation-delay: 2.5s;
+    animation-delay: 3s;
 }
 
 @keyframes ani1 {
