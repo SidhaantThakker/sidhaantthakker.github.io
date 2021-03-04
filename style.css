@@ -6,6 +6,10 @@ body{
     background-color: black;
 }
 
+.intro{
+    font-size: 2.5vh;
+}
+
 .profile{
     height: 75%;
     border-radius: 50%;
@@ -14,9 +18,9 @@ body{
 }
 
 .bio{
-    height: 20vh;
+    height: 10vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -34,6 +38,7 @@ div{
 .content{
     display: flex;
     justify-content: space-between;
+    font-size: 3vh;
 }
 
 .row{
@@ -50,3 +55,117 @@ div{
 .box{
     margin-bottom: 10vh;
 }
+
+.row1 {   
+    animation: ani1 1s forwards;
+    -webkit-animation: ani1 1s forwards;
+    opacity:0;
+    animation-delay: 1.5s;
+}
+
+.row2 {   
+    animation: ani1 1s forwards;
+    -webkit-animation: ani1 1s forwards;
+    opacity:0;
+    animation-delay: 2s;
+}
+
+.row3 {   
+    animation: ani1 1s forwards;
+    -webkit-animation: ani1 1s forwards;
+    opacity:0;
+    animation-delay: 2.5s;
+}
+
+@keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+
+    25%{
+
+        opacity: 0.25;
+    }
+
+    50%{
+
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes ani1 {
+    0% {
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes ani2 {
+    0% {
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+        display: none;
+    }
+}
+
+@-webkit-keyframes ani2 {
+    0% {
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0.25;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+
+    75%{
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+        display: none;
+    }
+}
+
