@@ -1,0 +1,30 @@
+*{
+    font-family: 'VT323', monospace;
+    color: green;
+}
+body{
+    background-color: black;
+}
+
+.profile{
+    height: 75%;
+    border-radius: 50%;
+    width: auto;
+}
+
+.bio{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tab{
+    margin-left: 3%;
+}
+.dtab{
+    margin-left: 5%;
+}
+
+div{
+    margin-top: 0;
+}
