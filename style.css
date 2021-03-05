@@ -19,6 +19,7 @@ body{
 
 .asciitext{
     opacity: 0;
+    font-size: 1vw;
     white-space: pre-wrap;
     margin-left: 30vw;
     animation: ani1 1s forwards;
