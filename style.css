@@ -18,12 +18,17 @@ body{
 }
 
 .asciitext{
+    display: block;
     opacity: 0;
     font-size: 1vw;
     white-space: pre-wrap;
     margin-left: 30vw;
     animation: ani1 1s forwards;
     animation-delay: 1.5s;
+}
+
+.asciitextmob{
+    display: none;
 }
 
 .bio{
@@ -177,4 +182,41 @@ div{
         display: none;
     }
 }
+@media only screen and (max-width: 768px) and (orientation:portrait) {
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .row{
+        width: 80%;
+    }
+    .asciitext{
+        display: none;
+    }
+    .asciitextmob{
+        display: block;
+        opacity: 0;
+        text-align: center;
+        font-size: 10vw;
+        animation: ani1 1s forwards;
+        animation-delay: 1.5s;
+    }
+    h3{
+        font-size: 4vh;
+    }
+    h4{
+        font-size: 3.5vh;
+    }
+    .content{
+        font-size: 3vh;
+    }
+
+    .tab{
+        margin-left: 0;
+    }
+
+    .dtab{
+        margin-left: 0;
+    }
+  }
 
